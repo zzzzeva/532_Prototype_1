@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public static int gameMode;
-    public SwitchCamera cameraManager;
+    public SwitchCamera1 cameraManager;
     // Start is called before the first frame update
     void Start()
     {

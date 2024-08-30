@@ -18,14 +18,8 @@ public class SwitchCamera1 : MonoBehaviour
 
     void Start()
     {
-        if(Manager == 1)
-        {
-            Cam_Closeup();
-        }
-        else
-        {
-            Cam_Overall();
-        }
+        Cam_Closeup();
+        
     }
 
     
